@@ -4,6 +4,8 @@ using UnityEngine.InputSystem;
 
 public class PlayerJoin : MonoBehaviour
 {
+    // this all comes from https://www.youtube.com/watch?v=u3KoWI92blE
+    
     public GameObject playerPrefab;
    private List<Gamepad> joinedGamePads = new List<Gamepad>();
     public GamaManager gM;
